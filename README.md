@@ -1,7 +1,7 @@
 ### coco2yolo-obb
 COCO Polygons to YOLO OBB converter. 
 
-# COCO to YOLO Segmentation Converter with Oriented Bounding Boxes
+# COCO to YOLO Oriented Bounding Boxes Converter  
 
 This Python script simplifies the conversion of COCO segmentation annotations to YOLO segmentation format, specifically using oriented bounding boxes (OBB). The resulting YOLO OBB format is suitable for training YOLO segmentation models.
 
