@@ -49,7 +49,7 @@ def convert_coco_to_yolo_segmentation(json_file, output_folder="labels-obb"):
         min_x, min_y, max_x, max_y = calculate_oriented_bounding_box(segmentation)
 
         # Convert COCO segmentation to YOLO segmentation format for oriented bounding box
-        yolo_segmentation = f", {min_x / image_width:.5f}, {min_y / image_height:.5f}, {max_x / image_width:.5f}, {max_y / image_height:.5f}"
+        yolo_segmentation = f"{min_x / image_width:.5f} {min_y / image_height:.5f} {max_x / image_width:.5f} {max_y / image_height:.5f}"
 
         # Generate the YOLO segmentation annotation line for oriented bounding box
         yolo_annotation = f"{category_id} {yolo_segmentation}"
