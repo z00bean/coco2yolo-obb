@@ -1,3 +1,7 @@
+# Convert COCO segmentation json to class_id, x, y, length, breadth, angle.
+# Note: class_id, x, y, length, breadth, angle is not yolo OBB format.
+# After converting to this format use convert_OBB.py to obtain the YOLO OBB annotation.
+
 import json
 import os
 import math
