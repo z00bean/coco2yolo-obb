@@ -32,9 +32,12 @@ The format for a single row in the YOLO OBB dataset file is as follows:
    
 4. Run the conversion script:
    
-   ```python COCO2YOLO-obb.py --json_file path/to/coco_annotations.json --output_folder path/to/output_folder```
+   ```python 1.COCO2YOLO-obb.py --json_file path/to/coco_annotations.json --output_folder path/to/output_folder```
   - Replace path/to/coco_annotations.json with the actual path to your COCO annotation JSON file.
   - Replace path/to/output_folder with the desired output folder path.
+
+5. Edit location of input_folder and output_folder variables, and run:
+   - ```python 2.convert_OBB.py```
 
 ## The YOLO OBB segmentation annotations will be saved in the specified output folder
 
