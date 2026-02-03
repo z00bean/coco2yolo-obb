@@ -4,7 +4,7 @@ A Python tool that converts COCO segmentation annotations to YOLO Oriented Bound
 
 ## Features
 
-- ✅ **Single-step conversion** - No more two-step process
+- ✅ **Single-step conversion** - One-step process
 - ✅ **Command-line interface** - Easy to use with argparse
 - ✅ **Robust error handling** - Graceful handling of edge cases
 - ✅ **Class mapping support** - Flexible class ID remapping
@@ -120,12 +120,6 @@ The tool includes robust error handling for common issues:
 - Missing image information
 - Class mapping errors
 
-## Future Plans
-
-- 📦 **PyPI Package** - Install via `pip install coco2yolo-obb`
-- 🔧 **Additional formats** - Support for more annotation formats
-- 🚀 **Performance optimization** - Faster processing for large datasets
-- 📊 **Validation tools** - Verify conversion accuracy
 
 ## Contributing
 
@@ -136,9 +130,6 @@ Contributions are welcome! Please feel free to:
 - Submit pull requests
 - Improve documentation
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## References
 
